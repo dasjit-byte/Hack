@@ -1,4 +1,5 @@
-Flask
-Flask-SQLAlchemy
-Flask-Mail
-gunicorn
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-Mail==0.9.1
+gunicorn==21.2.0
+
