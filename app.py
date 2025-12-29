@@ -53,9 +53,7 @@ with app.app_context():
         db.session.commit()
         
 
-@app.route('/')
-def home():
-    return render_template('index.html')
+
 
 @app.route('/api/resources')
 def get_resources():
@@ -107,3 +105,4 @@ if __name__ == '__main__':
 @app.route('/', methods=['GET', 'HEAD'])
 def home():
     return render_template('index.html')
+
