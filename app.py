@@ -17,8 +17,8 @@ app.config.update(
     MAIL_SERVER='smtp.gmail.com',
     MAIL_PORT=587,
     MAIL_USE_TLS=True,
-    MAIL_USERNAME=os.environ.get('MAIL_USER', 'dasjit62914@gmail.com'), 
-    MAIL_PASSWORD=os.environ.get('MAIL_PASS', 'Dasjit51987@') 
+    MAIL_USERNAME=os.environ.get('MAIL_USER', '2gmsil.com'), 
+    MAIL_PASSWORD=os.environ.get('MAIL_PASS', 'pass') 
 )
 
 db = SQLAlchemy(app)
@@ -130,3 +130,4 @@ if __name__ == '__main__':
     # debug=True is fine for local dev, set to False in production
     app.run(host='0.0.0.0', port=port, debug=True)
         
+
